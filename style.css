@@ -1,10 +1,4 @@
 /* Basic Style */
-body {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
-}
-
 ul {
   margin: 0;
   padding: 0px;
@@ -24,11 +18,21 @@ button {
   outline: none;
 }
 
+.main {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+  }
+
 .info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
+}
+
+#todo__add{
+  padding: 16px 0;
 }
 
 .info__img {
@@ -37,14 +41,6 @@ button {
 
 .info .info__details {
   font-family: fantasy, cursive;
-}
-
-@media (max-width: 768px) {
-
-  .info { 
-    text-align: center;
-  }
-
 }
 
 .todo {
@@ -138,7 +134,7 @@ button {
   width: 226px;
 }
 
-.task >    .input {
+.task >.input {
   width: 226px
 }
 
@@ -167,3 +163,11 @@ button {
   display: inline-block;
   width: 224px;
 }
+
+@media (max-width: 768px) {
+
+    .info { 
+      text-align: center;
+    }
+  
+  }
