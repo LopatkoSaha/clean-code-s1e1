@@ -124,7 +124,7 @@ button {
   font-size: 18px;
   width: 226px;
 }
-.task >    .input[type="text"] {
+.task >    .input {
   width: 226px
 }
 .delete__img {
@@ -144,10 +144,10 @@ button {
 
 /* Edit Task */
 .hidden {
-  display: none
+  display: none;
 }
 
 .tasks .task.edit-mode .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
