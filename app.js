@@ -45,6 +45,7 @@ var createNewTaskElement=function(taskString){
 
   deleteButton.className="task__delete button";
   deleteButtonImg.src="./remove.svg";
+  deleteButtonImg.className="delete__img";
   deleteButton.appendChild(deleteButtonImg);
 
 
@@ -101,6 +102,7 @@ var editTask=function(){
   //toggle .edit-mode on the parent.
   listItem.classList.toggle("edit-mode");
   label.classList.toggle("hidden");
+  editInput.classList.toggle("hidden");
 };
 
 
